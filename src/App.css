@@ -23,12 +23,21 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    
   }
 
   input, button{
-    padding: 0.5rem 1rem;
+    padding: 0.8rem 1rem;
     margin-left: 10px;
     font-size: 1rem;
+    background: rgba(255,255,255);
+    border:none;
+    border-radius: 12px;
+  }
+
+  button:hover{
+    background-color:rgb(247, 145, 28) ;
+    color:white;
   }
   .search input{
     padding: .7rem 1.5rem;
@@ -38,5 +47,6 @@
     background: rgba(255,255,255, 0.1);
     color:white;
     outline: none;
+    
   }
   
